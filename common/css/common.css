@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+/*==============================
+
+		common.css
+		v1.0 | 20161027
+
+==============================*/
+
+/*------------------------------
+	display
+------------------------------*/
+.dn {display: none !important;}
+.di {display: inline !important;}
+.dib {display: inline-block !important;}
+.db {display: block !important;}
+
+
+
+/*------------------------------
+	font-weight
+------------------------------*/
+.fwb {font-weight: bold !important;}
+
+
+
+/*------------------------------
+	text-align
+------------------------------*/
+.tal {text-align: left !important;}
+.tac {text-align: center !important;}
+.tar {text-align: right !important;}
+
+
+
+/*------------------------------
+	text-decoration
+------------------------------*/
+.tdn {text-decoration: none !important;}
+.tdu {text-decoration: underline !important;}
+
+
+
+/*------------------------------
+	vertical-align
+------------------------------*/
+.vat {vertical-align: top !important;}
+.vam {vertical-align: middle !important;}
+.vab {vertical-align: bottom !important;}
+
+
+
+/*------------------------------
+	margin
+------------------------------*/
+.mt0 {margin-top: 0 !important;}
+.mt5 {margin-top: 0 !important;}
+.mt10 {margin-top: 0 !important;}
+.mt15 {margin-top: 0 !important;}
+.mt20 {margin-top: 0 !important;}
+.mt25 {margin-top: 0 !important;}
+.mt30 {margin-top: 0 !important;}
+.mt35 {margin-top: 0 !important;}
+.mt40 {margin-top: 0 !important;}
+.mt45 {margin-top: 0 !important;}
+.mt50 {margin-top: 0 !important;}
+.mt60 {margin-top: 0 !important;}
+.mt70 {margin-top: 0 !important;}
+.mt80 {margin-top: 0 !important;}
+.mt90 {margin-top: 0 !important;}
+.mt100 {margin-top: 0 !important;}
+
+.mr0 {margin-right: 0 !important;}
+.mr5 {margin-right: 0 !important;}
+.mr10 {margin-right: 0 !important;}
+.mr15 {margin-right: 0 !important;}
+.mr20 {margin-right: 0 !important;}
+.mr25 {margin-right: 0 !important;}
+.mr30 {margin-right: 0 !important;}
+.mr35 {margin-right: 0 !important;}
+.mr40 {margin-right: 0 !important;}
+.mr45 {margin-right: 0 !important;}
+.mr50 {margin-right: 0 !important;}
+.mr60 {margin-right: 0 !important;}
+.mr70 {margin-right: 0 !important;}
+.mr80 {margin-right: 0 !important;}
+.mr90 {margin-right: 0 !important;}
+.mr100 {margin-right: 0 !important;}
+
+.mb0 {margin-bottom: 0 !important;}
+.mb5 {margin-bottom: 0 !important;}
+.mb10 {margin-bottom: 0 !important;}
+.mb15 {margin-bottom: 0 !important;}
+.mb20 {margin-bottom: 0 !important;}
+.mb25 {margin-bottom: 0 !important;}
+.mb30 {margin-bottom: 0 !important;}
+.mb35 {margin-bottom: 0 !important;}
+.mb40 {margin-bottom: 0 !important;}
+.mb45 {margin-bottom: 0 !important;}
+.mb50 {margin-bottom: 0 !important;}
+.mb60 {margin-bottom: 0 !important;}
+.mb70 {margin-bottom: 0 !important;}
+.mb80 {margin-bottom: 0 !important;}
+.mb90 {margin-bottom: 0 !important;}
+.mb100 {margin-bottom: 0 !important;}
+
+.ml0 {margin-left: 0 !important;}
+.ml5 {margin-left: 0 !important;}
+.ml10 {margin-left: 0 !important;}
+.ml15 {margin-left: 0 !important;}
+.ml20 {margin-left: 0 !important;}
+.ml25 {margin-left: 0 !important;}
+.ml30 {margin-left: 0 !important;}
+.ml35 {margin-left: 0 !important;}
+.ml40 {margin-left: 0 !important;}
+.ml45 {margin-left: 0 !important;}
+.ml50 {margin-left: 0 !important;}
+.ml60 {margin-left: 0 !important;}
+.ml70 {margin-left: 0 !important;}
+.ml80 {margin-left: 0 !important;}
+.ml90 {margin-left: 0 !important;}
+.ml100 {margin-left: 0 !important;}
+
+
+
+/*------------------------------
+	border
+------------------------------*/
+.bdn {border: none !important;}
+.bdtn {border-top: none !important;}
+.bdrn {border-right: none !important;}
+.bdbn {border-bottom: none !important;}
+.bdln {border-left: none !important;}
+
+
+
+/*------------------------------
+	overflow
+------------------------------*/
+.ovh {overflow: hidden !important;}
+
+
+
+/*------------------------------
+	position
+------------------------------*/
+.posr {position: relative !important;}
+
+
+
+/*------------------------------
+	z-index
+------------------------------*/
+.zi1 {z-index: 1 !important;}
+
+
+
+/*------------------------------
+	cursor
+------------------------------*/
+.curp {cursor: pointer !important;}
+
+
+
+/*------------------------------
+	clearfix
+------------------------------*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	font-size:0;
+	height: 0;
+	visibility:hidden;
+	clear: both;
+}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display:block;}
